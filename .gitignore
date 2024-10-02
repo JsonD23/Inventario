@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules/
 .expo/
 dist/
@@ -18,3 +19,35 @@ web-build/
 
 expo-env.d.ts
 # @end expo-cli
+=======
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+composer.lock
+tests/mocks/database/ci_test.sqlite
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+node_modules/
+>>>>>>> 88cd7960fbecac211fc89254636b759c77a931f5
